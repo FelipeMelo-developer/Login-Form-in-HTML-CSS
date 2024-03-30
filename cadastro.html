@@ -47,7 +47,7 @@
 
                                     <div class="input-box">   
                                         <label for="estado">Estado:</label><br>
-                                        <select id="estado" name="estado" required>
+                                        <select id="estado" name="estado" required onchange="carregarBairros(this.value)">
                                             <option value="estado__brasileiro">Selecione...</option>
                                                 <option value="AC">Acre</option>
                                                 <option value="AL">Alagoas</option>

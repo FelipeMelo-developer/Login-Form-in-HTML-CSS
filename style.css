@@ -234,7 +234,8 @@ body {
     border: 2px solid #ffc50698;
     border-radius: 40px;
     font-size: 14px;
-    color: rgb(92, 60, 0);
+    color: rgb(255, 255, 255);
+    background: #fd902a;
     padding: 20px 45px 20px 20px;
     font: 1em sans-serif;
 }
