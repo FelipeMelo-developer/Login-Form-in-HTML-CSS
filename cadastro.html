@@ -9,39 +9,57 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
-    <div>
-        <h2>Cadastro de Usuário</h2>
+    <div class="cadastro">
+        <div class="cadastro__titulo">
+            <h2>Cadastre-se</h2>
+        </div>
             <form action="/cadastro" method="POST">
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome" required><br>
-                
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
                     
-                <label for="senha">Senha:</label><br>
-                <input type="password" id="senha" name="senha" required minlength="6"><br>
+                <div class="input-box">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                    <i class='bx bx-user' style='color:#ffffff'></i><br>
+                </div>
                     
-                <label for="confirmar_senha">Confirmar Senha:</label><br>
-                <input type="password" id="confirmar_senha" name="confirmar_senha" required minlength="6"><br>
-                
-                <label for="telefone">Telefone:</label><br>
-                <input type="tel" id="telefone" name="telefone"><br>
-                        
-                <label for="endereco">Endereço:</label><br>
-                <textarea id="endereco" name="endereco"></textarea><br>
-                
+                    <div class="input-box">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                        <i class='bx bx-envelope' style='color:#ffffff'  ></i><br>
+                    </div>
 
-                    <input type="submit" value="Cadastrar">
-        
+                        <div class="input-box">
+                            <label for="senha">Senha:</label><br>
+                            <input type="password" id="senha" name="senha" required minlength="6">
+                            <!--<i class='bx bx-lock' style='color:#ffffff'></i><br>-->
+                        </div>
+                    
+                                <div class="input-box">
+                                    <label for="confirmar_senha">Confirmar Senha:</label><br>
+                                    <input type="password" id="confirmar_senha" name="confirmar_senha" required minlength="6">
+                                    <i class='bx bx-lock' style='color:#ffffff'></i><br>
+                                </div>
+
+                            <div class="input-box">
+                                <label for="telefone">Telefone:</label><br>
+                                <input type="tel" id="telefone" name="telefone"><br>
+                            </div>
+
+                        <div class="input-box">
+                            <label for="endereco">Endereço:</label><br>
+                            <input type="text" id="endereco" name="endereco" required><br>
+                        </div>
+                    <br>
+                <button type="submit" class="btn_cadastrar">Cadastrar</button>
             </form>
-            <br>
-            <div class="voltar">
-                <p><a href="/Login-Form-in-HTML-CSS/index.html">voltar</a></p>
-            </div>
+                
+        <div class="voltar">
+            <p><a href="/Login-Form-in-HTML-CSS/index.html"><img src="../Login-Form-in-HTML-CSS/img/icons8-voltar-30.png" alt=""></a></p>
+        </div>
+
     </div>
 
-
+    
+        
 
 
 </body>
