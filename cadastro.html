@@ -10,99 +10,90 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="cadastro">
-        <div class="cadastro__titulo">
-            <h2>Cadastre-se</h2>
-        </div>
-            <form action="/cadastro" method="POST">
-                    
-                <div class="input-box">
-                    <label for="nome">Nome:</label><br>
-                    <input type="text" id="nome" name="nome" required>
-                    <i class='bx bx-user' style='color:#ffffff'></i><br>
-                </div>
-                    
-                    <div class="input-box">
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" required>
-                        <i class='bx bx-envelope' style='color:#ffffff'  ></i><br>
-                    </div>
+    <div class= "layout_cadastro">
 
+        <div class="cadastro">
+            <div class="cadastro__titulo">
+                <h2>Cadastre-se</h2>
+            </div>
+
+            <div>
+                <form action="/cadastro" method="POST">
+                        
+                    <div class="input-box">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                        <i class='bx bx-user' style='color:#ffffff'></i><br>
+                    </div>
+                        
                         <div class="input-box">
-                            <label for="senha">Senha:</label><br>
-                            <input type="password" id="senha" name="senha" required minlength="6">
-                            <i class='bx bx-lock-open'></i>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" required>
+                            <i class='bx bx-envelope' style='color:#ffffff'  ></i><br>
                         </div>
-                    
-                                <div class="input-box">
-                                    <label for="confirmar_senha">Confirmar Senha:</label><br>
-                                    <input type="password" id="confirmar_senha" name="confirmar_senha" required minlength="6">
-                                    <i class='bx bx-lock' style='color:#ffffff'></i><br>
-                                </div>
+
+                            <div class="input-box">
+                                <label for="senha">Senha:</label><br>
+                                <input type="password" id="senha" name="senha" required minlength="6">
+                                <i class='bx bx-lock-open'></i>
+                            </div>
+                        
+                                    <div class="input-box">
+                                        <label for="confirmar_senha">Confirmar Senha:</label><br>
+                                        <input type="password" id="confirmar_senha" name="confirmar_senha" required minlength="6">
+                                        <i class='bx bx-lock' style='color:#ffffff'></i><br>
+                                    </div>
+
+                                        <div class="input-box">
+                                            <label for="telefone">Telefone:</label><br>
+                                            <input type="tel" id="telefone" name="telefone"><br>
+                                            <i class='bx bxs-phone' style='color:#ffffff'  ></i>
+                                        </div>
 
                                     <div class="input-box">
-                                        <label for="telefone">Telefone:</label><br>
-                                        <input type="tel" id="telefone" name="telefone"><br>
-                                        <i class='bx bxs-phone' style='color:#ffffff'  ></i>
+                                        <label for="txtCep">CEP</label>
+                                        <input id="txtCep" type="text" name="cep" />
                                     </div>
-
-                                    <div class="input-box">   
-                                        <label for="estado">Estado:</label><br>
-                                        <select id="estado" name="estado" required onchange="carregarBairros(this.value)">
-                                            <option value="estado__brasileiro">Selecione...</option>
-                                                <option value="AC">Acre</option>
-                                                <option value="AL">Alagoas</option>
-                                                <option value="AP">Amapá</option>
-                                                <option value="AM">Amazonas</option>
-                                                <option value="BA">Bahia</option>
-                                                <option value="CE">Ceará</option>
-                                                <option value="DF">Distrito Federal</option>
-                                                <option value="ES">Espírito Santo</option>
-                                                <option value="GO">Goiás</option>
-                                                <option value="MA">Maranhão</option>
-                                                <option value="MT">Mato Grosso</option>
-                                                <option value="MS">Mato Grosso do Sul</option>
-                                                <option value="MG">Minas Gerais</option>
-                                                <option value="PA">Pará</option>
-                                                <option value="PB">Paraíba</option>
-                                                <option value="PR">Paraná</option>
-                                                <option value="PE">Pernambuco</option>
-                                                <option value="PI">Piauí</option>
-                                                <option value="RJ">Rio de Janeiro</option>
-                                                <option value="RN">Rio Grande do Norte</option>
-                                                <option value="RS">Rio Grande do Sul</option>
-                                                <option value="RO">Rondônia</option>
-                                                <option value="RR">Roraima</option>
-                                                <option value="SC">Santa Catarina</option>
-                                                <option value="SP">São Paulo</option>
-                                                <option value="SE">Sergipe</option>
-                                                <option value="TO">Tocantins</option>
-                                        </select><br>
-                                    </div>
-
-                                <div class="input-box">  
-                                    <label for="bairro">Bairro:</label><br>
-                                    <input type="text" id="bairro" name="bairro" required><br>
+                    
+                                <div class="input-box">
+                                    <label>Rua</label>
+                                    <input id="txtRua" type="text" name="rua" />
                                 </div>
-
+                    
+                            <div class="input-box">
+                                <label>Bairro</label>
+                                <input id="txtBairro" type="text" name="bairro" />
+                            </div>
+                            
                         <div class="input-box">
-                            <label for="endereco">Endereço:</label><br>
-                            <input type="text" id="endereco" name="endereco" required><br>
-                            <i class='bx bx-map-pin'></i>
+                            <label>Cidade</label>
+                            <input id="txtCidade" type="text" name="cidade" />
                         </div>
+                    
+                    <div class="input-box">
+                        <label>Estado</label>
+                        <input id="txtEstado" type="text" name="estado" />
+                    </div>
                     <br>
-                <button type="submit" class="btn_cadastrar">Cadastrar</button>
-            </form>
-                
-        <div class="voltar">
-            <p><a href="../Login-Form-in-HTML-CSS/index.html"><img src="../Login-Form-in-HTML-CSS/img/icons8-voltar-30.png" alt=""></a></p>
+                    <button type="submit" class="btn_cadastrar">Cadastrar</button>
+                </form>
+            </div>
+            <div class="voltar">
+                <p><a href="../Login-Form-in-HTML-CSS/index.html"><img src="../Login-Form-in-HTML-CSS/img/icons8-voltar-30.png" alt=""></a></p>
+            </div>
         </div>
+    </div>
+
+
+                
+
 
     </div>
 
-    
-        
+    <footer>
 
-
+    </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/JavaScript" src="../Login-Form-in-HTML-CSS/cep.js"></script>
 </body>
 </html>
