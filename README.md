@@ -6,6 +6,8 @@
 O projeto tem como objetivo criação de uma página de login, aproveitando a oportunidade inclui também páginas adicionais, para redefinição de senha e cadastro na plataforma. Inspirado pelo trabalho do artista e cartunista japonês Akira Toriyama, criador de Dragon Ball, o layout presta uma homenagem a sua influência na cultura geek. Este projeto visa oferecer uma experiência de usuário envolvente e funcional, proporcionando um ambiente de login e cadastro inspirado em uma obra tão icônica quanto Dragon Ball.
 
 ## Tecnologias Utilizadas:
+<img align="center" height="30" width="100" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img align="center" height="30" width="100" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img align="center" height="30" width="100" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+
 Este projeto é desenvolvido utilizando as tecnologias web padrão: HTML, CSS e JavaScript. Essas ferramentas garantem a criação de interfaces dinâmicas e responsivas, possibilitando uma experiência de usuário fluida e intuitiva.
 
 ## Principais Recursos:
