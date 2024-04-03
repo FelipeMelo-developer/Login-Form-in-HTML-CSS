@@ -16,4 +16,6 @@ Este projeto é desenvolvido utilizando as tecnologias web padrão: HTML, CSS e 
 - Integração com Correios: Um recurso notável é a funcionalidade de preenchimento automático das informações com base no CEP fornecido. Isso proporciona conveniência aos usuários durante o processo de cadastro, automatizando a inserção de dados e garantindo sua precisão.
 
 ## Veja o projeto
-<a href="https://felipemelo-developer.github.io/Login-Form-in-HTML-CSS/index.html">Clique aqui para acessar o formulário de login</a>
+<img src = "https://raw.githubusercontent.com/FelipeMelo-developer/Login-Form-in-HTML-CSS/main/img/projeto%20dragon%20ball.png" width="30%">
+<a href="https://felipemelo-developer.github.io/Login-Form-in-HTML-CSS/index.html"> >>> CLIQUE AQUI PARA ACESSAR <<< </a>
+*role="textbox", aria-multiline="true", aria-autocomplete="list"**aria-labelledby="codemirror-label focus-trap-help-panel"*
