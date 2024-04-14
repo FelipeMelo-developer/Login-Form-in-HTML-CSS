@@ -15,7 +15,6 @@ Este projeto é desenvolvido utilizando as tecnologias web padrão: HTML, CSS e 
 - Login: Página de login que permite aos usuários acessarem a plataforma com suas credenciais.
 - Esquecimento de Senha: Página que oferece opções para os usuários recuperarem ou redefinirem suas senhas esquecidas.
 - Cadastro: Página de cadastro onde novos usuários podem se registrar na plataforma.
-- Integração com Correios: Um recurso notável é a funcionalidade de preenchimento automático das informações com base no CEP fornecido. Isso proporciona conveniência aos usuários durante o processo de cadastro, automatizando a inserção de dados e garantindo sua precisão.
 
 ## Veja o projeto
 <img src = "https://raw.githubusercontent.com/FelipeMelo-developer/Login-Form-in-HTML-CSS/main/img/projeto%20dragon%20ball.png" width="30%">
